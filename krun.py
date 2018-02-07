@@ -64,9 +64,11 @@ def print_tape(tape, show_current_position=False, current_position=0):
 
 if __name__ == '__main__' and os.path.exists(krun_path):
     if len(sys.argv) == 2 and os.path.exists(sys.argv[1]):
-        # First load the initial tape
+        # First load the initial tape and the initial comment
         with open(sys.argv[1]) as f:
             content = f.readlines()
+        if content[0].startswith("//"):
+            print(Colors.GREEN_BOLD + " --- " + content[0].strip("//").strip("\n") + " --- " + Colors.ENDC)
         initial_tape = {}
         for l in content:
             if l.startswith("\""):

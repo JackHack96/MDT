@@ -1,3 +1,4 @@
+// This machine copies and inverts the given string (composed of 0s and 1s)
 1, 2, 3, 4, 5, 6, 7
 Final: 7
 

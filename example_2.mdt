@@ -1,3 +1,4 @@
+// This machine verifies if the given string (composed of 0s and 1s) is palindrome
 0, 10, 11, 20, 21, 3, 4, 9, 35, 36, 352, 351, 362, 361
 Final: 9
 

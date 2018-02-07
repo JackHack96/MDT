@@ -1,3 +1,4 @@
+// This machine verifies if the number of 0s is equal with the number of 1s
 0, 1, 2, 3, 4, 5
 Final: 5
 
